@@ -8,9 +8,9 @@ import tensorflow as tf
  
 print(tf.__version__)
 
-X = np.arange(1, 11, 1)  # Cambiamos la generación de X para que no sea mayor a 10
+X = np.arange(1, 11, 1)  
 np.random.shuffle(X)
-y = 2.0 * X + 5.0  # Cambiamos la fórmula aquí
+y = 2.0 * X + 5.0  
 
 train_end = int(0.6 * len(X))
 test_start = int(0.8 * len(X))
