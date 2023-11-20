@@ -33,3 +33,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: hello-world
         run: echo Hello, world!
+
+      - name: run model 
+        run: python linear-model.py
